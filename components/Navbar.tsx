@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center">
           <img
-            src="/images/chipsense-logo0.png"
+            src="/images/chipsense-logo-horizontal-transparent.png"
             alt="ChipSense Tech"
             className="h-12 w-auto"
           />
