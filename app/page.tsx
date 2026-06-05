@@ -51,11 +51,11 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-6 max-w-3xl text-lg font-semibold leading-8 text-slate-100 md:text-xl">
-              面向功率电子、工业环境与传感数据采集的模块化产品平台
+              聚焦功率电子与工业智能感知，打造可定制的传感器模组平台
             </p>
 
             <p className="mt-4 max-w-5xl text-base leading-8 text-slate-300">
-              聚焦 TMR 电流传感、工业环境监测、电化学检测与数据采集系统，
+              聚焦 TMR 电流传感、工业环境监测与数据采集系统，
               为工业现场提供可集成、可验证、可定制的传感器模组产品
             </p>
 
@@ -83,7 +83,7 @@ export default function HomePage() {
           <SectionTitle
             eyebrow="Products"
             title="产品系列"
-            description="围绕 TMR 电流传感、工业环境监测、电化学检测与数据采集，构建面向工业现场的模块化产品组合"
+            description="围绕 TMR 电流传感、工业环境监测与数据采集，构建面向工业现场的模块化产品组合"
           />
 
           <div className="mt-12 grid gap-8 md:grid-cols-3">
