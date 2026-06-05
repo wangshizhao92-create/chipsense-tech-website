@@ -51,11 +51,12 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-6 max-w-3xl text-lg font-semibold leading-8 text-slate-100 md:text-xl">
-              面向功率电子、工业环境与传感数据采集的模组化产品平台
+              面向功率电子、工业环境与传感数据采集的模块化产品平台
             </p>
 
             <p className="mt-4 max-w-5xl text-base leading-8 text-slate-300">
-              聚焦 TMR 电流传感、工业环境监测与数据采集系统，为工业现场提供可集成、可验证、可定制的传感器模组产品
+              聚焦 TMR 电流传感、工业环境监测、电化学检测与数据采集系统，
+              为工业现场提供可集成、可验证、可定制的传感器模组产品
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -82,7 +83,7 @@ export default function HomePage() {
           <SectionTitle
             eyebrow="Products"
             title="产品系列"
-            description="围绕电流感知、环境监测与传感数据采集，构建面向工业现场的模组化产品组合。"
+            description="围绕 TMR 电流传感、工业环境监测、电化学检测与数据采集，构建面向工业现场的模块化产品组合"
           />
 
           <div className="mt-12 grid gap-8 md:grid-cols-3">
@@ -106,7 +107,7 @@ export default function HomePage() {
               </h2>
 
               <p className="mt-5 max-w-xl text-sm leading-7 text-slate-600">
-                面向传感器模组产品化开发，覆盖传感前端、嵌入式采集、工业通信、测试标定与系统集成。
+                面向传感器模组产品化开发，覆盖传感前端、嵌入式采集、工业通信、测试标定与系统集成
               </p>
 
               <div className="mt-8 rounded-[1.5rem] border border-slate-200 bg-white p-6 shadow-sm">
@@ -117,7 +118,7 @@ export default function HomePage() {
                   面向现场应用的工程化交付
                 </h3>
                 <p className="mt-3 text-sm leading-7 text-slate-600">
-                  支持从方案定义、样机验证到客户场景适配，形成可集成、可测试、可扩展的模组化产品方案。
+                  支持从方案定义、样机验证到客户场景适配，形成可集成、可测试、可扩展的模组化产品方案
                 </p>
               </div>
             </div>
@@ -155,7 +156,7 @@ export default function HomePage() {
           <SectionTitle
             eyebrow="Applications"
             title="应用场景"
-            description="面向功率电子、工业设备、环境监测、水质土壤与芯片测试等场景，提供可集成的传感器模组产品。"
+            description="面向功率电子、工业设备、环境监测、水质土壤与芯片测试等场景，提供可集成的传感器模组产品"
           />
 
           <div className="mt-12 grid gap-5 md:grid-cols-4">

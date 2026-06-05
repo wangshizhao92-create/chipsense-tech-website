@@ -16,7 +16,7 @@ export default function ContactCTA() {
               </h2>
 
               <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300">
-                欢迎围绕 TMR 电流传感、工业环境监测、传感数据采集与系统集成进行产品定制、样机开发和项目合作交流。
+                欢迎围绕 TMR 电流传感、工业环境监测、传感数据采集与系统集成进行产品定制、样机开发和项目合作交流
               </p>
             </div>
 

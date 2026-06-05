@@ -27,7 +27,7 @@ export const products = [
     href: "/products/tmr-current-sensor",
     image: "/images/tmr-catalog/m1-catalog-module.png",
     description:
-      "面向功率电子、工业控制与设备状态监测的非接触式电流检测模组。",
+      "面向功率电子、工业控制与设备状态监测的非接触式电流检测模组",
     tags: ["非接触测量", "快速响应", "工业可靠"],
     applications: ["工业电源", "逆变器", "电机驱动"],
   },
@@ -36,7 +36,7 @@ export const products = [
     href: "/products/industrial-environment-monitoring",
     image: "/images/product-industrial-monitoring.png",
     description:
-      "面向车间、仓储、园区和工业现场的多参数环境感知与安全预警模组。",
+      "面向车间、仓储、园区和工业现场的多参数环境感知与安全预警模组",
     tags: ["多参数监测", "边缘预警", "低功耗节点"],
     applications: ["车间", "仓储", "园区"],
   },
@@ -45,7 +45,7 @@ export const products = [
     href: "/products/information-technology-computing",
     image: "/images/service-computing-platform.png",
     description:
-      "面向传感器模组测试、工业检测和项目样机展示的数据采集与可视化系统。",
+      "面向传感器模组测试、工业检测和项目样机展示的数据采集与可视化系统",
     tags: ["数据采集", "状态分析", "可视化系统"],
     applications: ["传感测试", "工业数据", "样机展示"],
   },
@@ -54,27 +54,27 @@ export const products = [
 export const capabilities = [
   {
     title: "传感模组设计",
-    description: "围绕电流检测、环境感知和工业监测场景进行模块化设计。",
+    description: "围绕电流检测、环境感知和工业监测场景进行模块化设计",
   },
   {
     title: "嵌入式与数据采集",
-    description: "支持 MCU、通信接口、数据采集与边缘状态判断。",
+    description: "支持 MCU、通信接口、数据采集与边缘状态判断",
   },
   {
     title: "工业接口适配",
-    description: "支持 UART、CAN、RS485、告警输出等常用工业接口。",
+    description: "支持 UART、CAN、RS485、告警输出等常用工业接口",
   },
   {
     title: "测试与标定",
-    description: "面向传感器模组开展功能测试、参数标定和样机验证。",
+    description: "面向传感器模组开展功能测试、参数标定和样机验证",
   },
   {
     title: "状态分析",
-    description: "支持曲线分析、状态识别、异常预警和结果展示。",
+    description: "支持曲线分析、状态识别、异常预警和结果展示",
   },
   {
     title: "系统集成",
-    description: "支持传感节点、采集终端、通信接口和可视化页面集成。",
+    description: "支持传感节点、采集终端、通信接口和可视化页面集成",
   },
 ];
 
@@ -115,23 +115,23 @@ export const tmrApplications = [
 export const tmrPlatformBlocks = [
   {
     title: "磁传感单元",
-    description: "面向非接触式电流检测与状态感知。",
+    description: "面向非接触式电流检测与状态感知",
   },
   {
     title: "信号调理",
-    description: "完成检测信号转换、滤波与阈值判断。",
+    description: "完成检测信号转换、滤波与阈值判断",
   },
   {
     title: "边缘控制",
-    description: "实现本地采样、状态判断与参数配置。",
+    description: "实现本地采样、状态判断与参数配置",
   },
   {
     title: "工业接口",
-    description: "适配 UART、CAN、RS485 与告警输出接口。",
+    description: "适配 UART、CAN、RS485 与告警输出接口",
   },
   {
     title: "应用软件",
-    description: "支持参数配置、数据记录与系统集成。",
+    description: "支持参数配置、数据记录与系统集成",
   },
 ];
 
@@ -142,14 +142,14 @@ export const tmrSeries = [
     href: "/products/tmr-current-sensor/p-series",
     image: "/images/tmr-catalog/p3-catalog-module.png",
     subtitle: "面向快速验证、教学开发与原型样机的 TMR 电流检测产品系列",
-    summary: "用于快速构建电流检测、接近检测、过流保护和教学评估原型。",
+    summary: "用于快速构建电流检测、接近检测、过流保护和教学评估原型",
     labels: ["快速验证", "原型样机", "教学开发", "低成本部署"],
     products: [
       {
         model: "P1",
         name: "低速非接触电流监测模块",
         image: "/images/tmr-catalog/p1-catalog-module.png",
-        tagline: "用于低速电流状态检测和小型电源监测。",
+        tagline: "用于低速电流状态检测和小型电源监测",
         currentRange: "0–5 A",
         interface: "I²C / UART",
         scheme: "数字式磁传感器 + 低功耗 MCU + 状态输出",
@@ -161,7 +161,7 @@ export const tmrSeries = [
         model: "P2",
         name: "智能门磁 / 接近检测节点",
         image: "/images/tmr-catalog/p2-catalog-module.png",
-        tagline: "用于门磁、限位和设备开合状态感知。",
+        tagline: "用于门磁、限位和设备开合状态感知",
         currentRange: "状态检测型",
         interface: "GPIO / 扩展接口",
         scheme: "磁感知单元 + 低功耗控制器 + 可扩展接口",
@@ -173,7 +173,7 @@ export const tmrSeries = [
         model: "P3",
         name: "高带宽电流检测模块",
         image: "/images/tmr-catalog/p3-catalog-module.png",
-        tagline: "用于动态电流采样和高带宽波形分析。",
+        tagline: "用于动态电流采样和高带宽波形分析",
         currentRange: "按结构定制",
         interface: "UART / CAN",
         scheme: "模拟磁传感前端 + 高速采样 + 工业通信",
@@ -185,7 +185,7 @@ export const tmrSeries = [
         model: "P4",
         name: "快速过流保护模块",
         image: "/images/tmr-catalog/p4-catalog-module.png",
-        tagline: "用于快速过流判断、告警输出和保护触发。",
+        tagline: "用于快速过流判断、告警输出和保护触发",
         currentRange: "按阈值设定",
         interface: "告警输出 / CAN",
         scheme: "磁传感前端 + 阈值比较 + 快速保护输出",
@@ -197,7 +197,7 @@ export const tmrSeries = [
         model: "P5",
         name: "双模教学 / 开发评估板",
         image: "/images/tmr-catalog/p5-catalog-module.png",
-        tagline: "用于教学实验、方案验证和开发评估。",
+        tagline: "用于教学实验、方案验证和开发评估",
         currentRange: "按实验定制",
         interface: "USB / UART / ADC",
         scheme: "双模传感输入 + 显示交互 + 上位机接口",
@@ -213,14 +213,14 @@ export const tmrSeries = [
     href: "/products/tmr-current-sensor/m-series",
     image: "/images/tmr-catalog/m1-catalog-module.png",
     subtitle: "面向工业现场、设备控制与系统集成的 TMR 电流检测产品系列",
-    summary: "用于工业电源、逆变器、储能、充电设备和设备状态监测。",
+    summary: "用于工业电源、逆变器、储能、充电设备和设备状态监测",
     labels: ["工业现场", "高可靠", "隔离通信", "客户定制"],
     products: [
       {
         model: "M1",
         name: "工业电源 / 逆变器电流检测模块",
         image: "/images/tmr-catalog/m1-catalog-module.png",
-        tagline: "用于工业电源、逆变器和储能变流器电流检测。",
+        tagline: "用于工业电源、逆变器和储能变流器电流检测",
         currentRange: "±20 A / ±50 A / ±100 A",
         interface: "RS485 / Modbus",
         scheme: "TMR 采样 + 隔离通信 + 工业接口",
@@ -232,7 +232,7 @@ export const tmrSeries = [
         model: "M2",
         name: "电机驱动 / 伺服快速保护模块",
         image: "/images/tmr-catalog/m2-catalog-module.png",
-        tagline: "用于电机驱动和伺服系统的快速保护。",
+        tagline: "用于电机驱动和伺服系统的快速保护",
         currentRange: "±10 A / ±20 A / ±50 A",
         interface: "CAN / FAULT",
         scheme: "电流检测 + 快速保护 + 驱动系统接口",
@@ -244,7 +244,7 @@ export const tmrSeries = [
         model: "M3",
         name: "充电 / 储能柜隔离采样节点",
         image: "/images/tmr-catalog/m3-catalog-module.png",
-        tagline: "用于充电设备、储能柜和电池系统隔离采样。",
+        tagline: "用于充电设备、储能柜和电池系统隔离采样",
         currentRange: "±50 A / ±100 A / ±200 A",
         interface: "CAN / RS485",
         scheme: "隔离采样节点 + 本地告警 + 柜内通信",
@@ -256,7 +256,7 @@ export const tmrSeries = [
         model: "M4",
         name: "工业设备状态监测节点",
         image: "/images/tmr-catalog/m4-catalog-module.png",
-        tagline: "用于风机、水泵、压机和机床运行状态监测。",
+        tagline: "用于风机、水泵、压机和机床运行状态监测",
         currentRange: "0–5 A / 0–10 A / ±20 A",
         interface: "RS485 IO",
         scheme: "电流状态感知 + 边缘判断 + 工业物联网接入",
@@ -268,7 +268,7 @@ export const tmrSeries = [
         model: "M5",
         name: "开发评估 / 客户定制平台",
         image: "/images/tmr-catalog/m5-catalog-module.png",
-        tagline: "用于客户定制、联合开发和多接口评估。",
+        tagline: "用于客户定制、联合开发和多接口评估",
         currentRange: "±5 A–±200 A",
         interface: "USB / CAN / RS485",
         scheme: "多通道评估 + 多接口扩展 + 客户方案适配",
@@ -353,7 +353,7 @@ export default function ContactCTA() {
               获取产品资料与样机咨询
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600">
-              可围绕电流范围、接口形式、安装结构和应用场景进行产品沟通。
+              可围绕电流范围、接口形式、安装结构和应用场景进行产品沟通
             </p>
           </div>
 
@@ -406,7 +406,7 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300">
-              聚焦 TMR 电流传感、工业环境监测与传感数据采集系统，提供从传感模组、数据采集到系统集成的产品化解决方案。
+              聚焦 TMR 电流传感、工业环境监测与传感数据采集系统，提供从传感模组、数据采集到系统集成的产品化解决方案
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -431,7 +431,7 @@ export default function HomePage() {
         <SectionTitle
           eyebrow="Products"
           title="产品系列"
-          description="围绕功率电子、工业安全和智能制造场景，构建电流传感、环境监测与数据采集产品体系。"
+          description="围绕功率电子、工业安全和智能制造场景，构建电流传感、环境监测与数据采集产品体系"
         />
 
         <div className="mt-14 grid gap-8 md:grid-cols-3">
@@ -452,7 +452,7 @@ export default function HomePage() {
                 从传感模组到系统集成
               </h2>
               <p className="mt-5 max-w-xl leading-8 text-slate-300">
-                以传感器模组、嵌入式采集、工业接口、数据分析和可视化系统为核心，支撑工业现场与研发验证场景。
+                以传感器模组、嵌入式采集、工业接口、数据分析和可视化系统为核心，支撑工业现场与研发验证场景
               </p>
             </div>
 
@@ -482,7 +482,7 @@ export default function HomePage() {
         <SectionTitle
           eyebrow="Applications"
           title="典型应用场景"
-          description="服务于功率电子、工业安全、智能制造、传感器测试与项目样机展示等场景。"
+          description="服务于功率电子、工业安全、智能制造、传感器测试与项目样机展示等场景"
         />
 
         <div className="mt-14 grid gap-5 md:grid-cols-4">
@@ -548,7 +548,7 @@ export default function TmrCurrentSensorPage() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              面向功率电子、工业控制与设备状态监测的非接触式电流检测产品体系。
+              面向功率电子、工业控制与设备状态监测的非接触式电流检测产品体系
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
@@ -584,7 +584,7 @@ export default function TmrCurrentSensorPage() {
         <SectionTitle
           eyebrow="Product Series"
           title="产品系列"
-          description="覆盖快速验证、教学开发、工业现场与客户定制等多类应用需求。"
+          description="覆盖快速验证、教学开发、工业现场与客户定制等多类应用需求"
         />
 
         <div className="mt-14 grid gap-8 md:grid-cols-2">
@@ -647,7 +647,7 @@ export default function TmrCurrentSensorPage() {
                 模块化传感与控制平台
               </h2>
               <p className="mt-5 max-w-xl leading-8 text-slate-300">
-                围绕磁传感、信号调理、边缘控制、工业通信和应用软件，构建可扩展的电流检测模组平台。
+                围绕磁传感、信号调理、边缘控制、工业通信和应用软件，构建可扩展的电流检测模组平台
               </p>
             </div>
 
@@ -678,7 +678,7 @@ export default function TmrCurrentSensorPage() {
           <SectionTitle
             eyebrow="Representative Products"
             title="代表产品"
-            description="以产品实物形态、方案摘要和应用场景为核心，展示可落地的 TMR 电流检测模组。"
+            description="以产品实物形态、方案摘要和应用场景为核心，展示可落地的 TMR 电流检测模组"
           />
 
           <div className="mt-14 grid gap-6 md:grid-cols-3">
@@ -739,7 +739,7 @@ export default function TmrCurrentSensorPage() {
         <SectionTitle
           eyebrow="Applications"
           title="典型应用"
-          description="覆盖功率电子、工业电源、储能变流器、设备状态监测和教学评估场景。"
+          description="覆盖功率电子、工业电源、储能变流器、设备状态监测和教学评估场景"
         />
 
         <div className="mt-14 grid gap-5 md:grid-cols-4">
@@ -767,19 +767,19 @@ import { companyInfo } from "@/data/site";
 const cooperationItems = [
   {
     title: "样机联合开发",
-    description: "围绕电流检测、环境监测和数据采集场景，开展传感器模组样机开发。",
+    description: "围绕电流检测、环境监测和数据采集场景，开展传感器模组样机开发",
   },
   {
     title: "产品定制",
-    description: "根据电流范围、接口形式、安装结构和应用场景进行模组定制。",
+    description: "根据电流范围、接口形式、安装结构和应用场景进行模组定制",
   },
   {
     title: "测试与验证",
-    description: "支持传感器模组功能验证、参数标定、数据采集与演示系统搭建。",
+    description: "支持传感器模组功能验证、参数标定、数据采集与演示系统搭建",
   },
   {
     title: "项目联合申报",
-    description: "面向工业感知、智能制造和电子信息方向，开展项目方案设计与联合申报。",
+    description: "面向工业感知、智能制造和电子信息方向，开展项目方案设计与联合申报",
   },
 ];
 
@@ -799,7 +799,7 @@ export default function CooperationPage() {
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-            面向传感器模组开发、产品定制、测试验证和项目联合申报，提供灵活的合作方式。
+            面向传感器模组开发、产品定制、测试验证和项目联合申报，提供灵活的合作方式
           </p>
         </div>
       </section>

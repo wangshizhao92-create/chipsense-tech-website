@@ -12,8 +12,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-        <Link href="/" className="text-xl font-black text-slate-950">
-          ChipSense Tech
+        <Link href="/" className="flex items-center">
+        <img
+            src="/images/chipsense-logo.png"
+            alt="ChipSense Tech"
+            className="h-10 w-auto"
+        />
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm font-bold text-slate-700 md:flex">

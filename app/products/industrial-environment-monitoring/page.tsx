@@ -16,7 +16,7 @@ const productLines = [
     name: "多参数环境监测节点",
     shortName: "多参数节点",
     image: "/images/env-catalog/multi-parameter-node.png",
-    tagline: "面向工业现场、仓储园区和设备机柜的多参数环境感知模组。",
+    tagline: "面向工业现场、仓储园区和设备机柜的多参数环境感知模组",
     scheme: "环境传感单元 + 低功耗 MCU + 本地采集与通信接口",
     parameters: ["温湿度", "气压", "光照", "气体"],
     interface: "I²C / UART / RS485",
@@ -28,7 +28,7 @@ const productLines = [
     name: "空气流速检测模组",
     shortName: "空气流速",
     image: "/images/env-catalog/airflow-sensor-module.png",
-    tagline: "用于风道、机柜、数据中心和空气过滤系统的空气流速监测。",
+    tagline: "用于风道、机柜、数据中心和空气过滤系统的空气流速监测",
     scheme: "MEMS 热式流速传感器 + 数字采集 + 风道状态判断",
     parameters: ["空气流速", "风道状态", "通风异常"],
     interface: "I²C / 数字输出",
@@ -40,7 +40,7 @@ const productLines = [
     name: "重金属检测传感器模组",
     shortName: "重金属检测",
     image: "/images/env-catalog/heavy-metal-sensor-module.png",
-    tagline: "面向水质、土壤浸提液和工业排放场景的重金属离子检测。",
+    tagline: "面向水质、土壤浸提液和工业排放场景的重金属离子检测",
     scheme: "电化学电极 + 微弱信号采集 + 离子浓度分析",
     parameters: ["Pb²⁺", "Cd²⁺", "重金属筛查"],
     interface: "电化学接口 / RS485 / USB",
@@ -52,7 +52,7 @@ const productLines = [
     name: "硝酸盐检测传感器模组",
     shortName: "硝酸盐检测",
     image: "/images/env-catalog/nitrate-sensor-module.png",
-    tagline: "用于饮用水、地表水、农业水体和土壤环境中的硝酸盐检测。",
+    tagline: "用于饮用水、地表水、农业水体和土壤环境中的硝酸盐检测",
     scheme: "硝酸盐敏感电极 + 数字采集模块 + 浓度换算算法",
     parameters: ["NO₃⁻", "水质硝酸盐", "土壤浸提液"],
     interface: "电化学接口 / UART / RS485",
@@ -64,42 +64,42 @@ const productLines = [
 const platformBlocks = [
   {
     title: "传感单元",
-    description: "集成环境参数、空气流速和电化学检测传感单元。",
+    description: "集成环境参数、空气流速和电化学检测传感单元",
   },
   {
     title: "信号调理",
-    description: "完成微弱信号调理、滤波、放大与数字化采集。",
+    description: "完成微弱信号调理、滤波、放大与数字化采集",
   },
   {
     title: "边缘采集",
-    description: "实现本地采样、状态判断、异常识别和参数配置。",
+    description: "实现本地采样、状态判断、异常识别和参数配置",
   },
   {
     title: "通信接口",
-    description: "适配 I²C、UART、RS485、USB 与无线通信接口。",
+    description: "适配 I²C、UART、RS485、USB 与无线通信接口",
   },
   {
     title: "数据平台",
-    description: "支持数据记录、趋势分析、预警输出和系统集成。",
+    description: "支持数据记录、趋势分析、预警输出和系统集成",
   },
 ];
 
 const features = [
   {
     title: "环境参数集成",
-    description: "支持温湿度、气压、光照、气体和空气流速等多类参数接入。",
+    description: "支持温湿度、气压、光照、气体和空气流速等多类参数接入",
   },
   {
     title: "电化学检测扩展",
-    description: "重点聚焦重金属离子和硝酸盐检测，适合水质与土壤场景。",
+    description: "重点聚焦重金属离子和硝酸盐检测，适合水质与土壤场景",
   },
   {
     title: "低功耗部署",
-    description: "支持周期采样、边缘判断和电池供电等现场部署方式。",
+    description: "支持周期采样、边缘判断和电池供电等现场部署方式",
   },
   {
     title: "数据采集与标定",
-    description: "支持采集、校准、曲线分析、结果导出和上位机系统接入。",
+    description: "支持采集、校准、曲线分析、结果导出和上位机系统接入",
   },
 ];
 
@@ -141,7 +141,7 @@ export default function IndustrialEnvironmentMonitoringPage() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              面向工业现场、水质土壤监测和设备环境感知，提供多参数环境监测、空气流速检测、重金属检测和硝酸盐检测模组。
+              面向工业现场、水质土壤监测和设备环境感知，提供多参数环境监测、空气流速检测、重金属检测和硝酸盐检测模组
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
@@ -179,7 +179,7 @@ export default function IndustrialEnvironmentMonitoringPage() {
           <SectionTitle
             eyebrow="Product Lines"
             title="产品方向"
-            description="围绕工业环境监测和电化学检测，形成可集成、可部署、可定制的环境传感模组产品线。"
+            description="围绕工业环境监测和电化学检测，形成可集成、可部署、可定制的环境传感模组产品线"
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -285,7 +285,7 @@ export default function IndustrialEnvironmentMonitoringPage() {
                   </h2>
 
                   <p className="mt-5 max-w-xl text-sm leading-7 text-slate-300">
-                    围绕环境传感、电化学检测、边缘采集、通信接口和数据平台，构建可扩展的工业环境监测传感器模组体系。
+                    围绕环境传感、电化学检测、边缘采集、通信接口和数据平台，构建可扩展的工业环境监测传感器模组体系
                   </p>
 
                   <div className="mt-7 flex flex-wrap gap-3">
@@ -337,7 +337,7 @@ export default function IndustrialEnvironmentMonitoringPage() {
           <SectionTitle
             eyebrow="Features"
             title="产品特点"
-            description="面向现场部署和系统集成需求，兼顾环境参数感知、电化学检测、边缘采集和数据输出。"
+            description="面向现场部署和系统集成需求，兼顾环境参数感知、电化学检测、边缘采集和数据输出"
           />
 
           <div className="mt-10 grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch">
@@ -361,7 +361,7 @@ export default function IndustrialEnvironmentMonitoringPage() {
                 </h3>
 
                 <p className="mt-4 max-w-xl text-sm leading-7 text-slate-200">
-                  支持环境参数采集、空气流速监测、电化学检测和数据可视化接入，适合工业现场与科研测试场景。
+                  支持环境参数采集、空气流速监测、电化学检测和数据可视化接入，适合工业现场与科研测试场景
                 </p>
               </div>
             </div>
@@ -395,7 +395,7 @@ export default function IndustrialEnvironmentMonitoringPage() {
           <SectionTitle
             eyebrow="Applications"
             title="典型应用"
-            description="覆盖工业环境、水质土壤、空气流速、设备状态和传感器测试等场景。"
+            description="覆盖工业环境、水质土壤、空气流速、设备状态和传感器测试等场景"
           />
 
           <div className="mt-10 grid gap-5 md:grid-cols-4">

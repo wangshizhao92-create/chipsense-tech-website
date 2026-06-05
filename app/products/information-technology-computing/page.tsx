@@ -27,7 +27,7 @@ const serviceLines = [
     name: "Abaqus 结构与可靠性仿真",
     shortName: "Abaqus",
     icon: Layers,
-    tagline: "面向封装结构、连接层、界面失效、热-力耦合和可靠性评估的有限元分析服务。",
+    tagline: "面向封装结构、连接层、界面失效、热-力耦合和可靠性评估的有限元分析服务",
     software: "Abaqus / Python / CAE 后处理",
     applications: ["热-力耦合", "翘曲分析", "界面失效", "结构可靠性"],
     outputs: ["有限元模型", "应力应变云图", "参数扫描结果", "仿真分析报告"],
@@ -37,7 +37,7 @@ const serviceLines = [
     name: "Ansys 热流与结构仿真",
     shortName: "Ansys",
     icon: Cpu,
-    tagline: "面向电子设备、功率模块、散热结构和工业样机的热分析、结构分析与工程验证。",
+    tagline: "面向电子设备、功率模块、散热结构和工业样机的热分析、结构分析与工程验证",
     software: "Ansys Mechanical / Fluent / Workbench",
     applications: ["热管理", "流固耦合", "结构强度", "散热优化"],
     outputs: ["热场结果", "流场结果", "结构强度评估", "优化建议"],
@@ -47,7 +47,7 @@ const serviceLines = [
     name: "COMSOL 多物理场建模",
     shortName: "COMSOL",
     icon: Workflow,
-    tagline: "面向传感器、功率器件、封装结构和测试平台的电-热-力-流多物理场耦合建模。",
+    tagline: "面向传感器、功率器件、封装结构和测试平台的电-热-力-流多物理场耦合建模",
     software: "COMSOL Multiphysics / MATLAB / Java API",
     applications: ["电热耦合", "热阻网络", "传感器响应", "多场参数扫描"],
     outputs: ["多物理场模型", "参数化计算结果", "响应曲线", "工程分析报告"],
@@ -57,7 +57,7 @@ const serviceLines = [
     name: "LAMMPS 分子动力学计算",
     shortName: "LAMMPS",
     icon: Atom,
-    tagline: "面向材料界面、薄膜沉积、缺陷演化和热输运机制的分子动力学模拟与数据分析。",
+    tagline: "面向材料界面、薄膜沉积、缺陷演化和热输运机制的分子动力学模拟与数据分析",
     software: "LAMMPS / OVITO / Python",
     applications: ["界面结合", "薄膜结构", "热导率计算", "原子尺度损伤"],
     outputs: ["原子模型", "轨迹文件", "结构统计", "机理分析图"],
@@ -67,7 +67,7 @@ const serviceLines = [
     name: "科研计算资源服务",
     shortName: "Computing Resources",
     icon: Server,
-    tagline: "面向科研团队和项目计算需求，提供 CPU/GPU 计算资源配置、任务运行、批量计算和结果管理支持。",
+    tagline: "面向科研团队和项目计算需求，提供 CPU/GPU 计算资源配置、任务运行、批量计算和结果管理支持",
     software: "CPU 工作站 / GPU 服务器 / Linux / Python",
     applications: ["批量计算", "参数扫描", "GPU 加速", "计算环境配置"],
     outputs: ["计算环境", "任务脚本", "运行结果", "数据归档"],
@@ -77,7 +77,7 @@ const serviceLines = [
     name: "MEMS 可靠性软件开发",
     shortName: "MEMS Reliability",
     icon: BarChart3,
-    tagline: "面向 MEMS 器件、传感器结构和封装可靠性分析，开发建模、寿命评估和数据可视化软件原型。",
+    tagline: "面向 MEMS 器件、传感器结构和封装可靠性分析，开发建模、寿命评估和数据可视化软件原型",
     software: "Python / Qt / Web / COMSOL API / Abaqus Python",
     applications: ["MEMS 可靠性", "寿命评估", "仿真自动化", "可视化软件"],
     outputs: ["软件原型", "计算流程", "可视化界面", "技术说明文档"],
@@ -87,27 +87,27 @@ const serviceLines = [
 const workflowSteps = [
   {
     title: "需求定义",
-    description: "明确研究问题、模型对象、计算资源需求、软件功能和目标输出。",
+    description: "明确研究问题、模型对象、计算资源需求、软件功能和目标输出",
   },
   {
     title: "模型建立",
-    description: "建立有限元、多物理场、分子动力学或 MEMS 可靠性分析模型。",
+    description: "建立有限元、多物理场、分子动力学或 MEMS 可靠性分析模型",
   },
   {
     title: "计算部署",
-    description: "配置 CPU/GPU 计算环境，开展单工况、批量任务或参数扫描计算。",
+    description: "配置 CPU/GPU 计算环境，开展单工况、批量任务或参数扫描计算",
   },
   {
     title: "数据处理",
-    description: "提取场变量、响应曲线、统计指标、失效位置和可靠性评价参数。",
+    description: "提取场变量、响应曲线、统计指标、失效位置和可靠性评价参数",
   },
   {
     title: "软件封装",
-    description: "将重复计算流程封装为脚本、工具链或可视化软件原型。",
+    description: "将重复计算流程封装为脚本、工具链或可视化软件原型",
   },
   {
     title: "报告交付",
-    description: "输出模型文件、计算数据、软件说明、图表结果和分析报告。",
+    description: "输出模型文件、计算数据、软件说明、图表结果和分析报告",
   },
 ];
 
@@ -130,32 +130,32 @@ const deliverables = [
   {
     title: "模型文件",
     icon: FileText,
-    description: "包括 Abaqus、Ansys、COMSOL、LAMMPS 等计算模型与输入文件。",
+    description: "包括 Abaqus、Ansys、COMSOL、LAMMPS 等计算模型与输入文件",
   },
   {
     title: "计算结果",
     icon: Database,
-    description: "包括云图、曲线、表格、统计指标和参数扫描结果。",
+    description: "包括云图、曲线、表格、统计指标和参数扫描结果",
   },
   {
     title: "计算环境",
     icon: Server,
-    description: "包括运行脚本、依赖环境、批处理流程和计算资源配置说明。",
+    description: "包括运行脚本、依赖环境、批处理流程和计算资源配置说明",
   },
   {
     title: "软件原型",
     icon: Cpu,
-    description: "包括 MEMS 可靠性分析、仿真自动化和数据可视化软件原型。",
+    description: "包括 MEMS 可靠性分析、仿真自动化和数据可视化软件原型",
   },
   {
     title: "分析报告",
     icon: BarChart3,
-    description: "包括模型假设、计算条件、结果解释和工程结论。",
+    description: "包括模型假设、计算条件、结果解释和工程结论",
   },
   {
     title: "论文配图",
     icon: LineChart,
-    description: "支持科研论文、项目申报和技术汇报中的高质量图表输出。",
+    description: "支持科研论文、项目申报和技术汇报中的高质量图表输出",
   },
 ];
 
@@ -214,7 +214,7 @@ export default function InformationTechnologyComputingPage() {
           <SectionTitle
             eyebrow="Service Lines"
             title="服务方向"
-            description="围绕科研计算、工程仿真、计算资源和软件开发，提供从建模计算到结果交付的一体化服务。"
+            description="围绕科研计算、工程仿真、计算资源和软件开发，提供从建模计算到结果交付的一体化服务"
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -308,7 +308,7 @@ export default function InformationTechnologyComputingPage() {
               </h2>
 
               <p className="mt-5 max-w-xl text-sm leading-7 text-slate-600">
-                面向科研课题、论文支撑、计算资源部署和工程软件开发，建立规范化的需求定义、模型计算、数据处理和结果交付流程。
+                面向科研课题、论文支撑、计算资源部署和工程软件开发，建立规范化的需求定义、模型计算、数据处理和结果交付流程
               </p>
 
               <div className="mt-8 rounded-[1.5rem] border border-blue-100 bg-blue-50 p-6">
@@ -316,7 +316,7 @@ export default function InformationTechnologyComputingPage() {
                   Research-Oriented Delivery
                 </div>
                 <p className="mt-3 text-sm leading-7 text-slate-700">
-                  重点服务科研计算和工程验证场景，强调模型可解释、结果可复现、流程可自动化、图表可用于论文和项目汇报。
+                  重点服务科研计算和工程验证场景，强调模型可解释、结果可复现、流程可自动化、图表可用于论文和项目汇报
                 </p>
               </div>
             </div>

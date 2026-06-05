@@ -1,7 +1,6 @@
 ﻿import Image from "next/image";
 import Link from "next/link";
 import {
-  CheckCircle2,
   LineChart,
   Mail,
   MapPin,
@@ -17,14 +16,14 @@ const contactCards = [
   {
     title: "联系邮箱",
     value: companyInfo.email,
-    description: "适用于产品咨询、样机合作、采购配套和项目对接。",
+    description: "适用于产品咨询、样机合作、采购配套和项目对接",
     icon: Mail,
     href: `mailto:${companyInfo.email}`,
   },
   {
     title: "公司地址",
     value: "海南省海口市龙华区珠江广场裙楼四层",
-    description: "支持项目合作、样机沟通和企业定制需求对接。",
+    description: "支持项目合作、样机沟通和企业定制需求对接",
     icon: MapPin,
     href: "",
   },
@@ -34,25 +33,25 @@ const cooperationTypes = [
   {
     title: "采购与集成配套",
     description:
-      "围绕项目样机、课程实验、测试验证和小批量应用需求，提供器件选型、模组采购、BOM 配套和系统集成支持。",
+      "围绕项目样机、课程实验、测试验证和小批量应用需求，提供器件选型、模组采购、BOM 配套和系统集成支持",
     icon: PackageCheck,
   },
   {
     title: "产品定制开发",
     description:
-      "根据检测对象、接口协议、安装方式和应用场景，开展传感模组、采集节点和可视化系统定制开发。",
+      "根据检测对象、接口协议、安装方式和应用场景，开展传感模组、采集节点和可视化系统定制开发",
     icon: Wrench,
   },
   {
     title: "样机联合开发",
     description:
-      "围绕 TMR 电流传感、工业环境监测、电化学检测、数据采集系统和项目验证样机开展联合开发。",
+      "围绕 TMR 电流传感、工业环境监测、电化学检测、数据采集系统和项目验证样机开展联合开发",
     icon: Workflow,
   },
   {
     title: "项目申报与成果转化",
     description:
-      "面向科研项目、企业技术需求和成果转化场景，提供方案论证、样机验证、测试数据和技术材料支持。",
+      "面向科研项目、企业技术需求和成果转化场景，提供方案论证、样机验证、测试数据和技术材料支持",
     icon: LineChart,
   },
 ];
@@ -60,27 +59,20 @@ const cooperationTypes = [
 const processSteps = [
   {
     title: "需求沟通",
-    description: "明确应用场景、检测对象、接口需求、样机数量和交付目标。",
+    description: "明确应用场景、检测对象、接口需求、样机数量和交付目标",
   },
   {
     title: "方案确认",
-    description: "确定器件选型、模组方案、测试方式、开发周期和合作形式。",
+    description: "确定器件选型、模组方案、测试方式、开发周期和合作形式",
   },
   {
     title: "样机验证",
-    description: "开展原理样机、测试程序、数据采集流程和初步功能验证。",
+    description: "开展原理样机、测试程序、数据采集流程和初步功能验证",
   },
   {
     title: "交付支持",
-    description: "提供测试结果、技术说明、采购配套、系统集成或项目材料支持。",
+    description: "提供测试结果、技术说明、采购配套、系统集成或项目材料支持",
   },
-];
-
-const requirementItems = [
-  "应用场景：如电流检测、环境监测、水质土壤检测、数据采集或 MEMS 可靠性分析",
-  "合作类型：采购配套、产品定制、样机联合开发或项目申报支持",
-  "技术需求：检测范围、接口形式、供电方式、安装空间、通信协议等",
-  "交付需求：样机数量、测试数据、软件页面、报告材料或项目申报材料",
 ];
 
 export default function ContactPage() {
@@ -115,7 +107,7 @@ export default function ContactPage() {
             </p>
 
             <p className="mt-4 max-w-4xl text-base leading-8 text-slate-300">
-              围绕 TMR 电流传感、工业环境监测、传感数据采集与科研计算软件服务，提供从需求沟通到样机验证的合作支持。
+              围绕 TMR 电流传感、工业环境监测、传感数据采集与科研计算软件服务，提供从需求沟通到样机验证的合作支持
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -139,7 +131,7 @@ export default function ContactPage() {
       </section>
 
       <section className="bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="mx-auto max-w-7xl px-6 pt-12 pb-14">
           <div className="grid gap-6 md:grid-cols-2">
             {contactCards.map((item) => {
               const Icon = item.icon;
@@ -181,11 +173,11 @@ export default function ContactPage() {
       </section>
 
       <section className="bg-slate-50">
-        <div className="mx-auto max-w-7xl px-6 py-20">
+        <div className="mx-auto max-w-7xl px-6 py-16">
           <SectionTitle
             eyebrow="Cooperation Types"
             title="合作类型"
-            description="围绕采购配套、产品定制、样机联合开发和项目成果转化，提供从器件选型到系统集成的合作支持。"
+            description="围绕采购配套、产品定制、样机联合开发和项目成果转化，提供从器件选型到系统集成的合作支持"
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-4">
@@ -216,90 +208,97 @@ export default function ContactPage() {
       </section>
 
       <section className="bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.25em] text-blue-600">
-                Process
-              </p>
+        <div className="mx-auto max-w-7xl px-6 pt-16 pb-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-blue-600">
+              Process
+            </p>
 
-              <h2 className="mt-4 text-3xl font-black leading-tight text-slate-950 md:text-5xl">
-                合作流程
-              </h2>
+            <h2 className="mt-4 text-3xl font-black leading-tight text-slate-950 md:text-5xl">
+              合作流程
+            </h2>
 
-              <p className="mt-5 max-w-xl text-sm leading-7 text-slate-600">
-                建议在邮件中尽量说明应用场景、检测对象、接口需求和交付目标，便于快速判断合作方式和技术路线。
-              </p>
+            <p className="mt-5 text-sm leading-7 text-slate-600">
+              从需求沟通到样机验证，按项目目标快速确定合作方式和交付内容
+            </p>
+          </div>
 
-              <div className="mt-8 rounded-[1.5rem] border border-blue-100 bg-blue-50 p-6">
-                <div className="text-sm font-black text-blue-700">
-                  Recommended Information
+          <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+            {processSteps.map((item, index) => (
+              <div
+                key={item.title}
+                className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-blue-100 hover:shadow-md"
+              >
+                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-50 text-sm font-black text-blue-600">
+                  {String(index + 1).padStart(2, "0")}
                 </div>
 
-                <div className="mt-4 grid gap-3">
-                  {requirementItems.map((item) => (
-                    <div key={item} className="flex gap-3 text-sm leading-7 text-slate-700">
-                      <CheckCircle2
-                        size={18}
-                        className="mt-1 shrink-0 text-blue-600"
-                      />
-                      <span>{item}</span>
-                    </div>
-                  ))}
-                </div>
+                <h3 className="mt-5 text-lg font-black text-slate-950">
+                  {item.title}
+                </h3>
+
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  {item.description}
+                </p>
               </div>
-            </div>
+            ))}
+          </div>
 
-            <div className="grid gap-4">
-              {processSteps.map((item, index) => (
-                <div
-                  key={item.title}
-                  className="flex items-center gap-5 rounded-[1.25rem] border border-slate-200 bg-white px-5 py-4 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-blue-100 hover:shadow-xl"
-                >
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-sm font-black text-blue-600">
-                    {String(index + 1).padStart(2, "0")}
-                  </div>
-
-                  <div>
-                    <h3 className="text-base font-black text-slate-950">
-                      {item.title}
-                    </h3>
-
-                    <p className="mt-1 text-sm leading-6 text-slate-600">
-                      {item.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
+          <div className="mt-8 rounded-3xl border border-slate-200 bg-slate-50 px-6 py-5 text-center text-sm leading-7 text-slate-600">
+            建议邮件中简要说明应用场景、检测对象、接口需求、样机数量和交付目标
           </div>
         </div>
       </section>
 
-      <section className="bg-slate-950 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-14">
-          <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.25em] text-blue-300">
-                Start a Project
-              </p>
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-6 pt-6 pb-14">
+          <div className="border-t border-slate-100 pt-8">
+            <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+              <div>
+                <p className="text-sm font-bold uppercase tracking-[0.28em] text-blue-600">
+                  Start a Project
+                </p>
 
-              <h2 className="mt-4 text-3xl font-black leading-tight md:text-5xl">
-                有采购、定制或样机合作需求？
-              </h2>
+                <h2 className="mt-4 text-3xl font-black leading-tight text-slate-950 md:text-5xl">
+                  有采购、定制或样机合作需求？
+                </h2>
 
-              <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300">
-                欢迎围绕传感器模组、工业环境监测、数据采集系统、科研计算和工程软件服务进行合作交流。
-              </p>
+                <p className="mt-5 max-w-3xl text-base leading-8 text-slate-600">
+                  欢迎围绕传感器模组、工业环境监测、数据采集系统、科研计算和工程软件服务进行合作交流
+                </p>
+              </div>
+
+              <div className="rounded-3xl border border-slate-200 bg-slate-50 p-7">
+                <div className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
+                  Contact
+                </div>
+
+                <div className="mt-4 break-all text-2xl font-black text-slate-950">
+                  {companyInfo.email}
+                </div>
+
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  请在邮件中简要说明应用场景、技术需求或合作方向，便于快速对接
+                </p>
+
+                <div className="mt-6 flex flex-wrap gap-3">
+                  <Link
+                    href={`mailto:${companyInfo.email}`}
+                    className="inline-flex items-center justify-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-sm font-bold text-white transition hover:bg-blue-500"
+                  >
+                    <Mail size={18} />
+                    发送邮件
+                  </Link>
+
+                  <Link
+                    href="/products"
+                    className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-bold text-slate-900 transition hover:bg-slate-100"
+                  >
+                    查看产品与服务
+                  </Link>
+                </div>
+              </div>
             </div>
-
-            <Link
-              href={`mailto:${companyInfo.email}`}
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-blue-600 px-8 py-3 text-sm font-bold text-white shadow-lg shadow-blue-600/30 transition hover:bg-blue-500"
-            >
-              <Mail size={18} />
-              {companyInfo.email}
-            </Link>
           </div>
         </div>
       </section>

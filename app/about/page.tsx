@@ -18,19 +18,19 @@ const focusCards = [
   {
     title: "TMR 电流传感模块",
     description:
-      "面向功率电子、工业电源、逆变器和设备状态监测，开发非接触式电流检测模组。",
+      "面向功率电子、工业电源、逆变器和设备状态监测，开发非接触式电流检测模组",
     icon: Zap,
   },
   {
     title: "工业环境监测传感器模组",
     description:
-      "面向工业现场、水质土壤、空气流速和电化学检测，开发可部署的环境感知模组。",
+      "面向工业现场、水质土壤、空气流速和电化学检测，开发可部署的环境感知模组",
     icon: ShieldCheck,
   },
   {
     title: "科研计算与工程软件服务",
     description:
-      "围绕传感器、MEMS、封装和材料研发，提供仿真计算、计算资源和软件工具支持。",
+      "围绕传感器、MEMS、封装和材料研发，提供仿真计算、计算资源和软件工具支持",
     icon: Cpu,
   },
 ];
@@ -39,25 +39,25 @@ const capabilityCards = [
   {
     title: "传感模组开发",
     description:
-      "围绕电流检测、环境感知、电化学检测和工业监测场景，开展模块化硬件方案设计。",
+      "围绕电流检测、环境感知、电化学检测和工业监测场景，开展模块化硬件方案设计",
     icon: Layers,
   },
   {
     title: "嵌入式采集与通信",
     description:
-      "支持 MCU 采集、边缘判断、本地状态输出、UART、CAN、RS485、USB 等接口适配。",
+      "支持 MCU 采集、边缘判断、本地状态输出、UART、CAN、RS485、USB 等接口适配",
     icon: Cpu,
   },
   {
     title: "测试标定与样机验证",
     description:
-      "支持传感器模组功能测试、参数标定、样机验证、数据记录和结果分析。",
+      "支持传感器模组功能测试、参数标定、样机验证、数据记录和结果分析",
     icon: LineChart,
   },
   {
     title: "仿真计算与软件开发",
     description:
-      "支持 Abaqus、Ansys、COMSOL、LAMMPS 科研计算，以及 MEMS 可靠性软件原型开发。",
+      "支持 Abaqus、Ansys、COMSOL、LAMMPS 科研计算，以及 MEMS 可靠性软件原型开发",
     icon: Atom,
   },
 ];
@@ -74,23 +74,23 @@ const productDirections = [
 const engineeringSteps = [
   {
     title: "需求定义",
-    description: "确定检测对象、接口形式、结构约束、应用场景和交付目标。",
+    description: "确定检测对象、接口形式、结构约束、应用场景和交付目标",
   },
   {
     title: "方案设计",
-    description: "完成传感器选型、采集电路、嵌入式控制、通信接口和软件架构设计。",
+    description: "完成传感器选型、采集电路、嵌入式控制、通信接口和软件架构设计",
   },
   {
     title: "样机开发",
-    description: "完成原理样机、验证板、测试程序、数据采集流程和初步功能验证。",
+    description: "完成原理样机、验证板、测试程序、数据采集流程和初步功能验证",
   },
   {
     title: "测试标定",
-    description: "开展功能测试、参数标定、稳定性评估、数据记录和问题迭代。",
+    description: "开展功能测试、参数标定、稳定性评估、数据记录和问题迭代",
   },
   {
     title: "系统集成",
-    description: "支持传感节点、采集终端、上位机页面、可视化系统和客户场景适配。",
+    description: "支持传感节点、采集终端、上位机页面、可视化系统和客户场景适配",
   },
 ];
 
@@ -98,25 +98,25 @@ const cooperationItems = [
   {
     title: "采购与集成配套",
     description:
-      "围绕项目样机、课程实验、测试验证和小批量应用需求，提供器件选型、模组采购、BOM 配套和系统集成支持。",
+      "围绕项目样机、课程实验、测试验证和小批量应用需求，提供器件选型、模组采购、BOM 配套和系统集成支持",
     icon: PackageCheck,
   },
   {
     title: "产品定制开发",
     description:
-      "根据客户检测对象、接口协议、安装方式和应用场景，开展传感模组、采集节点和可视化系统定制开发。",
+      "根据客户检测对象、接口协议、安装方式和应用场景，开展传感模组、采集节点和可视化系统定制开发",
     icon: Wrench,
   },
   {
     title: "样机联合开发",
     description:
-      "围绕传感器模组、工业环境监测节点、数据采集系统和项目验证样机开展联合开发。",
+      "围绕传感器模组、工业环境监测节点、数据采集系统和项目验证样机开展联合开发",
     icon: Workflow,
   },
   {
     title: "项目申报与成果转化",
     description:
-      "面向科研项目、企业技术需求和成果转化场景，提供方案论证、样机验证、测试数据和技术材料支持。",
+      "面向科研项目、企业技术需求和成果转化场景，提供方案论证、样机验证、测试数据和技术材料支持",
     icon: LineChart,
   },
 ];
@@ -153,7 +153,7 @@ export default function AboutPage() {
             </p>
 
             <p className="mt-4 max-w-3xl text-base leading-8 text-slate-300">
-              聚焦 TMR 电流传感、工业环境监测、传感数据采集与工程软件开发，提供从传感模组、样机验证到系统集成的产品化解决方案。
+              聚焦 TMR 电流传感、工业环境监测、传感数据采集与工程软件开发，提供从传感模组、样机验证到系统集成的产品化解决方案
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -197,7 +197,7 @@ export default function AboutPage() {
                 </h3>
 
                 <p className="mt-3 text-sm leading-7 text-slate-600">
-                  现阶段以样机研发、项目合作、企业定制、采购配套和成果转化为主要方向，服务科研团队、工业客户和应用验证场景。
+                  现阶段以样机研发、项目合作、企业定制、采购配套和成果转化为主要方向，服务科研团队、工业客户和应用验证场景
                 </p>
               </div>
             </div>
@@ -235,7 +235,7 @@ export default function AboutPage() {
           <SectionTitle
             eyebrow="Capabilities"
             title="核心能力"
-            description="围绕传感器模组产品化开发，形成从硬件设计、嵌入式采集、测试标定到仿真软件支持的工程能力。"
+            description="围绕传感器模组产品化开发，形成从硬件设计、嵌入式采集、测试标定到仿真软件支持的工程能力"
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-4">
@@ -283,7 +283,7 @@ export default function AboutPage() {
                 </div>
 
                 <p className="mt-3 text-sm leading-7 text-slate-700">
-                  以产品样机和应用验证为牵引，逐步形成可展示、可测试、可采购、可定制开发和可合作转化的传感器模组产品组合。
+                  以产品样机和应用验证为牵引，逐步形成可展示、可测试、可采购、可定制开发和可合作转化的传感器模组产品组合
                 </p>
               </div>
             </div>
@@ -323,7 +323,7 @@ export default function AboutPage() {
               </h2>
 
               <p className="mt-5 max-w-xl text-sm leading-7 text-slate-300">
-                面向客户场景和科研项目需求，建立传感器模组开发、测试验证和系统集成的工程化流程。
+                面向客户场景和科研项目需求，建立传感器模组开发、测试验证和系统集成的工程化流程
               </p>
             </div>
 
@@ -358,7 +358,7 @@ export default function AboutPage() {
           <SectionTitle
             eyebrow="Cooperation"
             title="合作方向"
-            description="围绕采购配套、产品定制、样机联合开发和项目成果转化，提供从器件选型到系统集成的合作支持。"
+            description="围绕采购配套、产品定制、样机联合开发和项目成果转化，提供从器件选型到系统集成的合作支持"
           />
 
           <div className="mt-12 grid gap-6 md:grid-cols-4">

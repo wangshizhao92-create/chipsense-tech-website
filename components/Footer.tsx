@@ -46,7 +46,8 @@ export default function Footer() {
             </div>
 
             <p className="mt-4 max-w-sm text-xs leading-6 text-slate-500">
-              面向功率电子、工业环境监测与科研计算场景，提供传感器模组、样机验证和工程软件服务。
+              <span className="block">聚焦工业智能感知</span>
+              <span className="block">提供传感器模组、样机验证与工程化支持</span>
             </p>
           </div>
 

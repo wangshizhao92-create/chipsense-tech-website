@@ -42,7 +42,7 @@ export default function TmrCurrentSensorPage() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              面向功率电子、工业控制与设备状态监测的非接触式电流检测产品体系。
+              面向功率电子、工业控制与设备状态监测的非接触式电流检测产品体系
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
@@ -78,7 +78,7 @@ export default function TmrCurrentSensorPage() {
         <SectionTitle
           eyebrow="Product Series"
           title="产品系列"
-          description="覆盖快速验证、教学开发、工业现场与客户定制等多类应用需求。"
+          description="覆盖快速验证、教学开发、工业现场与客户定制等多类应用需求"
         />
 
         <div className="mt-14 grid gap-8 md:grid-cols-2">
@@ -147,7 +147,7 @@ export default function TmrCurrentSensorPage() {
                   </h2>
 
                   <p className="mt-5 max-w-xl text-sm leading-7 text-slate-300">
-                    围绕磁传感、信号调理、边缘控制、工业通信和应用软件，构建可扩展的电流检测模组平台。
+                    围绕磁传感、信号调理、边缘控制、工业通信和应用软件，构建可扩展的电流检测模组平台
                   </p>
 
                   <div className="mt-8 flex flex-wrap gap-3">
@@ -170,27 +170,27 @@ export default function TmrCurrentSensorPage() {
                   {
                     index: "01",
                     title: "磁传感单元",
-                    desc: "面向非接触式电流检测与状态感知。",
+                    desc: "面向非接触式电流检测与状态感知",
                   },
                   {
                     index: "02",
                     title: "信号调理",
-                    desc: "完成信号转换、滤波、放大与阈值判断。",
+                    desc: "完成信号转换、滤波、放大与阈值判断",
                   },
                   {
                     index: "03",
                     title: "边缘控制",
-                    desc: "实现本地采样、状态判断和参数配置。",
+                    desc: "实现本地采样、状态判断和参数配置",
                   },
                   {
                     index: "04",
                     title: "工业接口",
-                    desc: "适配 UART、CAN、RS485、告警输出等接口。",
+                    desc: "适配 UART、CAN、RS485、告警输出等接口",
                   },
                   {
                     index: "05",
                     title: "应用软件",
-                    desc: "支持参数配置、数据记录和系统集成。",
+                    desc: "支持参数配置、数据记录和系统集成",
                   },
                 ].map((item) => (
                   <div
@@ -225,7 +225,7 @@ export default function TmrCurrentSensorPage() {
           <SectionTitle
             eyebrow="Representative Products"
             title="代表产品"
-            description="以产品实物形态、方案摘要和应用场景为核心，展示可落地的 TMR 电流检测模组。"
+            description="以产品实物形态、方案摘要和应用场景为核心，展示可落地的 TMR 电流检测模组"
           />
 
           <div className="mt-14 grid gap-6 md:grid-cols-3">
@@ -286,7 +286,7 @@ export default function TmrCurrentSensorPage() {
         <SectionTitle
           eyebrow="Applications"
           title="典型应用"
-          description="覆盖功率电子、工业电源、储能变流器、设备状态监测和教学评估场景。"
+          description="覆盖功率电子、工业电源、储能变流器、设备状态监测和教学评估场景"
         />
 
         <div className="mt-14 grid gap-5 md:grid-cols-4">
