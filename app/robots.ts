@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const siteUrl = "https://www.chipsensetech.cn";
+const siteUrl = "https://chipsense-tech-website.vercel.app";
 
 export default function robots(): MetadataRoute.Robots {
   return {
