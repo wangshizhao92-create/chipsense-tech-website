@@ -33,6 +33,7 @@ export const metadata: Metadata = {
     google: "NGUmBX3xKLVcQqK3b-Z2IU1xFx_mR0Sqtc-HdfpX_K4",
     other: {
      "msvalidate.01": "0C8849E3DE3D973B66796AE0BE4D1BFF",
+     "baidu-site-verification": "codeva-K461245gLD",
   },
   },
   openGraph: {
