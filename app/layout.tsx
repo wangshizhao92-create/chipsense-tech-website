@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     default: "海南芯斟科技有限公司 | ChipSense Tech",
     template: "%s | 海南芯斟科技有限公司",
   },
+  
   description:
     "海南芯斟科技有限公司是一家面向功率电子与工业智能感知的传感器模组公司，提供 TMR 电流传感模块、工业环境监测传感器模组、科研计算与工程软件服务。",
   keywords: [
@@ -28,6 +29,9 @@ export const metadata: Metadata = {
   authors: [{ name: "海南芯斟科技有限公司" }],
   creator: "海南芯斟科技有限公司",
   publisher: "海南芯斟科技有限公司",
+  verification: {
+    google: "NGUmBX3xKLVcQqK3b-Z2IU1xFx_mR0Sqtc-HdfpX_K4",
+  },
   openGraph: {
     title: "海南芯斟科技有限公司 | ChipSense Tech",
     description:
