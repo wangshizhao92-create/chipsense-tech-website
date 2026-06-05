@@ -31,6 +31,9 @@ export const metadata: Metadata = {
   publisher: "海南芯斟科技有限公司",
   verification: {
     google: "NGUmBX3xKLVcQqK3b-Z2IU1xFx_mR0Sqtc-HdfpX_K4",
+    other: {
+     "msvalidate.01": "0C8849E3DE3D973B66796AE0BE4D1BFF",
+  },
   },
   openGraph: {
     title: "海南芯斟科技有限公司 | ChipSense Tech",
